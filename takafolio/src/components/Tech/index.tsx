@@ -2,6 +2,7 @@
 interface TechProps {
     nameImage: string,
     techImage: string,
+    altTextTechImage: string,
     description: string
 }
 export default function Tech(props: TechProps) {
@@ -9,9 +10,9 @@ export default function Tech(props: TechProps) {
 
         <section className="flex items-start h-auto gap-2 my-4 p-2">
 
-            <img src={props.nameImage} alt="vtexio" />
+            <img src={props.nameImage} />
 
-            <img className="w-16" src={props.techImage} alt="vite" />
+            <img className="w-[40px]" src={props.techImage} alt={props.altTextTechImage} />
 
             <p>{props.description}</p>
 

@@ -2,6 +2,7 @@
 import CookieConsent from 'react-cookie-consent';
 
 import ReactGA from "react-ga4";
+import SocialLinks from './components/SocialLinks';
 import Tech from './components/Tech';
 
 ReactGA.initialize("G-6J0RFLBS5Y");
@@ -13,7 +14,7 @@ function App() {
 
   return (
 
-    <main className='h-screen overflow-auto box-border tracking-wider dark:bg-zinc-900 dark:text-zinc-50 text-zinc-800'>
+    <main className='h-screen overflow-auto box-border tracking-wider bg-zinc-100 dark:bg-zinc-900 dark:text-zinc-50 text-zinc-800'>
       <header className='flex justify-between items-center p-4'>
 
 
@@ -79,10 +80,42 @@ function App() {
           Tecnologias que me interesso
         </h2>
 
-        <Tech nameImage="/vtex-io.svg" techImage="/vtexLogo.svg" description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque aut natus, ea officiis fugit quis est reiciendis atque ullam libero! Magni error, unde a rerum provident molestias fugit quisquam fugiat.' />
+        <Tech
+          nameImage="/vtex-io.svg"
+          techImage="/vtex-logo.svg"
+          altTextTechImage='logo vtex io'
+          description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque aut natus, ea officiis fugit quis est reiciendis atque ullam libero! Magni error, unde a rerum provident molestias fugit quisquam fugiat.'
+        />
+
+        <Tech
+          nameImage="/react-name.svg"
+          techImage="/react-logo.svg"
+          altTextTechImage='Logo React'
+          description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque aut natus, ea officiis fugit quis est reiciendis atque ullam libero! Magni error, unde a rerum provident molestias fugit quisquam fugiat.'
+        />
+
+        <Tech
+          nameImage="/js-name.svg"
+          techImage="/js-logo.svg"
+          altTextTechImage='Logo Javascript'
+          description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque aut natus, ea officiis fugit quis est reiciendis atque ullam libero! Magni error, unde a rerum provident molestias fugit quisquam fugiat.'
+        />
 
 
       </section>
+
+
+      <footer>
+        <section className='flex flex-col justify-center items-center my-40 mx-4'>
+
+          <h2 className='text-2xl font-bold my-4'>
+            Entre em contato
+          </h2>
+
+
+          <SocialLinks />
+        </section>
+      </footer>
       <CookieConsent>
       </CookieConsent>
     </main>
