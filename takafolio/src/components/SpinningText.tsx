@@ -9,15 +9,14 @@ export default function SpinningText(props: SpinningTextProps) {
 
 
     return (
-        <div className='text-white'>
+        <div className='absolute w-full h-full'>
 
-            <span className='rotate-45'>
 
-                {props.texto.split('').map((letra) => (
-                    `${letra}`))
+            {props.texto.split('').map((letra, multiplier) => (
+                <span className={`rotate-${multiplier * 5}  text-xs left-1/2 absolute text-red-300 origin-[0_100px]`}>{letra}</span>
+            ))
+            }
 
-                    .join(' ')}
-            </span>
         </div>
     )
 }

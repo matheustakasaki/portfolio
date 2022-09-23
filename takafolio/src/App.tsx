@@ -1,8 +1,8 @@
-import { motion } from 'framer-motion'
+
 import CookieConsent from 'react-cookie-consent';
 
 import ReactGA from "react-ga4";
-import SpinningText from './components/SpinningText';
+import Tech from './components/Tech';
 
 ReactGA.initialize("G-6J0RFLBS5Y");
 ReactGA.send("pageview");
@@ -13,12 +13,12 @@ function App() {
 
   return (
 
-    <main className='h-screen dark:bg-zinc-900'>
+    <main className='h-screen overflow-auto box-border tracking-wider dark:bg-zinc-900 dark:text-zinc-50 text-zinc-800'>
       <header className='flex justify-between items-center p-4'>
 
 
         <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <g clip-path="url(#clip0_3_8)">
+          <g>
             <path d="M24 48C37.2548 48 48 37.2548 48 24C48 10.7452 37.2548 0 24 0C10.7452 0 0 10.7452 0 24C0 37.2548 10.7452 48 24 48Z" fill="#131111" />
             <path d="M23.0936 28.2275C23.567 27.4076 23.2861 26.3591 22.4662 25.8857L20.6846 24.8571C19.8647 24.3838 18.8162 24.6647 18.3429 25.4846L14.5714 32.0169C14.098 32.8369 14.379 33.8853 15.1989 34.3587L16.9804 35.3873C17.8004 35.8608 18.8488 35.5797 19.3222 34.7599L23.0936 28.2275Z" fill="white" />
             <path d="M23.0936 25.1598C23.567 25.9797 23.2861 27.0282 22.4662 27.5015L20.6846 28.5301C19.8647 29.0035 18.8162 28.7226 18.3429 27.9026L14.5714 21.3703C14.098 20.5504 14.379 19.502 15.1989 19.0286L16.9804 18C17.8004 17.5266 18.8488 17.8076 19.3222 18.6275L23.0936 25.1598Z" fill="white" />
@@ -37,14 +37,14 @@ function App() {
       </header>
 
 
-      <section className='my-20'>
+      <section className='box-border my-4'>
 
 
         <div className='px-4'>
 
           <div className=''>
-            <p className='dark:text-zinc-50'>Olá! meu nome é</p>
-            <h1 className='text-3xl dark:text-zinc-50 font-bold my-4'>Matheus <span>Taka</span>saki Antunes</h1>
+            <p className=''>Olá! meu nome é</p>
+            <h1 className='text-3xl tracking-widest dark:text-zinc-50 font-bold my-4'>Matheus <span className='bg-clip-text text-transparent stroke-violet-50 stroke-2 bg-gradient-to-r from-cyan-500 to-blue-500'>Taka</span>saki Antunes</h1>
 
             <p className='text-sm dark:text-zinc-50'>Sou um desenvolvedor Front-end com dois anos e meio de experiência em <strong>VTEX</strong> <strong>VTEX IO</strong>.</p>
 
@@ -54,13 +54,37 @@ function App() {
       </section>
 
 
-      <section>
+      <section className='flex justify-center
+       my-5' >
 
-        <SpinningText texto='VTEXIO - Front' />
-        <img src='/meRounded.png' />
+        <div className="box-border relative rounded-full flex justify-center items-center">
+
+          <img className='' src='/meRounded.png' />
+
+
+        </div>
+
+
       </section>
 
-      <CookieConsent />
+
+      <section className='flex flex-col justify-center m-4'>
+        <h2 className='text-2xl font-bold my-4'>Front-end developer</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus atque veritatis reiciendis maxime eum consectetur voluptatem ipsum nobis similique unde animi neque, perferendis odit harum, id, optio porro doloremque cupiditate!</p>
+      </section>
+
+
+      <section className='flex flex-col justify-center my-40 mx-4'>
+        <h2 className='text-2xl font-bold my-4'>
+          Tecnologias que me interesso
+        </h2>
+
+        <Tech nameImage="/vtex-io.svg" techImage="/vtexLogo.svg" description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque aut natus, ea officiis fugit quis est reiciendis atque ullam libero! Magni error, unde a rerum provident molestias fugit quisquam fugiat.' />
+
+
+      </section>
+      <CookieConsent>
+      </CookieConsent>
     </main>
 
   )
