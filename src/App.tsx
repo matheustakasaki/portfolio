@@ -1,12 +1,8 @@
 
 import CookieConsent from 'react-cookie-consent';
 
-import ReactGA from "react-ga4";
 import SocialLinks from './components/SocialLinks';
 import Tech from './components/Tech';
-
-ReactGA.initialize("G-6J0RFLBS5Y");
-ReactGA.send("pageview");
 
 
 function App() {
