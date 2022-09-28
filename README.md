@@ -7,11 +7,14 @@ Este é um projeto onde descrevo quem sou eu, o que já fiz e quais são meus pr
 ## Mobile
 
 - Imagem do mobile aqui
+  ()[Print da tela]
 
 ## Desktop
 
-()[Print da tela]
+- Imagem do desktop aqui
+  ()[Print da tela]
 
 ## Protótipo
 
-()[Print da tela]
+- Imagem ou link do figma
+  ()[Print da tela]
