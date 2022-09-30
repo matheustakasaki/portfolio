@@ -9,7 +9,7 @@ Este é um projeto onde descrevo quem sou eu, o que já fiz e quais são meus pr
 - Imagem do mobile aqui
   ()[Print da tela]
 
-## Desktop
+## Computador (desktop)
 
 - Imagem do desktop aqui
   ()[Print da tela]
