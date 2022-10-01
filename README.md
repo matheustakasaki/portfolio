@@ -14,7 +14,7 @@ Este é um projeto onde descrevo quem sou eu, o que já fiz e quais são meus pr
 - Imagem do desktop aqui
   ()[Print da tela]
 
-## Protótipo
+## Protótipo do projeto
 
 - Imagem ou link do figma
   ()[Print da tela]
