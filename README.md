@@ -6,7 +6,7 @@ Este é um projeto onde descrevo quem sou eu, o que já fiz e quais são meus pr
 
 ## Mobile
 
-- Imagem do mobile aqui
+- Imagem do mobile
   ()[Print da tela]
 
 ## Computador (desktop)
