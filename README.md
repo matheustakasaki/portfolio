@@ -1,8 +1,10 @@
-# Portfólio - Matheus Antunes
+# Portfólio - Matheus Takasaki Antunes
 
 Este é um projeto onde descrevo quem sou eu, o que já fiz e quais meus objetivos de carreira.
 
 - (matheus.takasaki.com.br)[Site Oficial]
+
+### Sobre
 
 ## Mobile
 
