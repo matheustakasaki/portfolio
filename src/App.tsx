@@ -10,10 +10,10 @@ function App() {
 
   return (
 
-    <main className='h-screen overflow-auto box-border tracking-wider bg-zinc-100 dark:bg-zinc-900 dark:text-zinc-50 text-zinc-800'>
+    <main className='h-screen overflow-auto box-border tracking-wider bg-zinc-100  dark:bg-zinc-900 dark:text-zinc-50 text-zinc-800'>
 
 
-      <section className='max-w-3xl m-auto'>
+      <section className='max-w-3xl mx-auto dark:border-slate-100 border-slate-800 border-2 my-4 p-4 rounded-2xl'>
         <header className='flex justify-between items-center p-4'>
 
 
@@ -74,7 +74,7 @@ my-5' >
         </section>
 
 
-        <section className='flex flex-col justify-center my-40 mx-4'>
+        <section className='flex flex-col justify-center my-10 mx-4'>
           <h2 className='text-2xl font-bold my-4'>
             Tecnologias que me interesso
           </h2>
@@ -105,7 +105,7 @@ my-5' >
 
 
         <footer>
-          <section className='flex flex-col justify-center items-center my-40 mx-4'>
+          <section className='flex flex-col justify-center items-center my-10 mx-4'>
 
             <h2 className='text-2xl font-bold my-4'>
               Entre em contato
