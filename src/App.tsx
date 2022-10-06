@@ -44,9 +44,9 @@ function App() {
 
             <div className=''>
               <p className=''>Olá! meu nome é</p>
-              <h1 className='text-3xl tracking-widest dark:text-zinc-50 font-bold my-4'>Matheus <span className='bg-clip-text text-transparent stroke-violet-50 stroke-2 bg-gradient-to-r from-cyan-500 to-blue-500'>Taka</span>saki Antunes</h1>
+              <h1 className='text-3xl tracking-widest dark:text-zinc-50 font-bold my-4'>Matheus <span className='bg-clip-text text-transparent stroke-violet-50 stroke-2 bg-gradient-to-r from-cyan-300 to-blue-500 animate-animatedGradient'>Taka</span>saki Antunes</h1>
 
-              <p className='text-sm dark:text-zinc-50'>Sou um desenvolvedor Front-end com dois anos e meio de experiência em <strong>VTEX</strong> <strong>VTEX IO</strong>.</p>
+              <p className='text-sm dark:text-zinc-50'>Sou um desenvolvedor Front-end com dois anos e meio de experiência em <strong>VTEX</strong> e <strong>VTEX IO</strong>.</p>
 
             </div>
 
