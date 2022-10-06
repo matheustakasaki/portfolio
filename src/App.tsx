@@ -1,4 +1,5 @@
 
+import { useEffect, useState } from 'react';
 import CookieConsent from 'react-cookie-consent';
 
 import SocialLinks from './components/SocialLinks';
@@ -7,6 +8,23 @@ import Tech from './components/Tech';
 
 function App() {
 
+  const [themeOption, setTheme] = useState(false)
+
+  const handleChangeTheme = () => {
+
+
+    if (themeOption) {
+      document.querySelector('html')?.classList.add('dark')
+      setTheme(!themeOption)
+    } else {
+
+
+      document.querySelector('html')?.classList.remove('dark')
+      setTheme(!themeOption)
+    }
+
+
+  }
 
   return (
 
@@ -34,6 +52,10 @@ function App() {
             </defs>
           </svg>
 
+          <button
+            onClick={handleChangeTheme}
+            title='enviar'
+            className='p-2 rounded-full block'>Alterar</button>
         </header>
 
 
