@@ -1,5 +1,5 @@
 
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import CookieConsent from 'react-cookie-consent';
 
 import SocialLinks from './components/SocialLinks';
@@ -55,7 +55,7 @@ function App() {
           <button
             onClick={handleChangeTheme}
             title='enviar'
-            className='p-2 rounded-full block'>Alterar</button>
+            className='p-2 rounded-full block'>SwitchTheme</button>
         </header>
 
 
