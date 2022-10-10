@@ -22,3 +22,5 @@ Atualmente posso dizer que sou um ávido aprendiz do vasto campo de desenvolvime
 
 - Imagem ou link do figma
   ()[Print da tela]
+
+## Referências
