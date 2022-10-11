@@ -10,7 +10,7 @@ Atualmente posso dizer que sou um ávido aprendiz do vasto campo de desenvolvime
 
 ## Mobile
 
-- Imagem do mobile
+- Imagem do mobilee
   ()[Print da tela]
 
 ## Computador (desktop)
