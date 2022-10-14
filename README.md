@@ -2,7 +2,7 @@
 
 Este é um projeto onde descrevo quem sou eu, o que já fiz e quais são meus próximos objetivos de carreira.
 
-- (matheus.takasaki.com.br)[Site Oficial]
+- (matheus.takasaki.com.br) [Acesse meu portfolio]
 
 ### Sobre
 
