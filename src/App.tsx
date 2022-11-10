@@ -55,7 +55,7 @@ function App() {
           <button
             onClick={handleChangeTheme}
             title='enviar'
-            className='p-2 rounded-full block'>SwitchTheme</button>
+            className='p-2 rounded-full block'>Switch</button>
         </header>
 
 
@@ -91,7 +91,7 @@ my-5' >
 
 
         <section className='flex flex-col justify-center m-4'>
-          <h2 className='text-2xl font-bold my-4'>Front-end developer</h2>
+          <h2 className='text-2xl font-bold my-4'>Front-end Developer</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus atque veritatis reiciendis maxime eum consectetur voluptatem ipsum nobis similique unde animi neque, perferendis odit harum, id, optio porro doloremque cupiditate!</p>
         </section>
 
@@ -130,7 +130,7 @@ my-5' >
           <section className='flex flex-col justify-center items-center my-10 mx-4'>
 
             <h2 className='text-2xl font-bold my-4'>
-              Entre em contato
+              Fale comigo
             </h2>
 
 
