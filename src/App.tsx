@@ -1,6 +1,3 @@
-import { useState } from 'react';
-import CookieConsent from 'react-cookie-consent';
-
 import SocialLinks from './components/SocialLinks';
 import SwitchThemeButton from './components/SwitchThemeButton';
 import Tech from './components/Tech';
@@ -130,8 +127,6 @@ my-5'
           </section>
         </footer>
       </section>
-
-      <CookieConsent></CookieConsent>
     </main>
   );
 }
