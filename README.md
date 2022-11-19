@@ -2,7 +2,7 @@
 
 Este é um projeto onde descrevo quem sou eu, o que já fiz e quais são meus próximos objetivos de carreira.
 
-- (matheus.takasaki.com.br) [Acesse meu portfolio]
+- (https://matheus.takasaki.com.br) [Site Oficial]
 
 ### Sobre
 
@@ -10,7 +10,7 @@ Atualmente posso dizer que sou um ávido aprendiz do vasto campo de desenvolvime
 
 ## Mobile
 
-- Imagem do mobilee
+- Imagem do mobile
   ()[Print da tela]
 
 ## Computador (desktop)
