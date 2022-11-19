@@ -66,14 +66,6 @@ function App() {
             </defs>
           </svg>
 
-          <button
-            onClick={handleChangeTheme}
-            title='enviar'
-            className='p-2 rounded-full block'
-          >
-            Switch
-          </button>
-
           <SwitchThemeButton />
         </header>
 
@@ -89,7 +81,7 @@ function App() {
                 saki Antunes
               </h1>
 
-              <p className='text-sm dark:text-zinc-50'>
+              <p className='text-md dark:text-zinc-50'>
                 Sou um desenvolvedor Front-end com dois anos e meio de
                 experiência no mercado de trabalho.
               </p>
