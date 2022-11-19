@@ -5,17 +5,17 @@ export default function SocialLinks() {
   return (
     <div className='flex'>
       <a href='https://github.com/matheustakasaki' target='_blank'>
-        <GitHubIcon />
+        <GitHubIcon fontSize='large' />
       </a>
       <a
         href='https://www.linkedin.com/in/matheus-takasaki-antunes/'
         target='_blank'
       >
-        <LinkedInIcon />
+        <LinkedInIcon fontSize='large' />
       </a>
 
       <a href='mailto:matheus8antunes@gmail.com' target='_blank'>
-        <EmailIcon />
+        <EmailIcon fontSize='large' />
       </a>
     </div>
   );
