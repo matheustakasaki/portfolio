@@ -6,8 +6,13 @@ export default function SwitchThemeButton() {
   const [toggle, setToggle] = useState(false);
 
   function checked() {
-    console.log(toggle);
-    setToggle(!toggle);
+    if (toggle) {
+      document.querySelector('html')?.classList.add('dark');
+      setToggle(!toggle);
+    } else {
+      document.querySelector('html')?.classList.remove('dark');
+      setToggle(!toggle);
+    }
     return toggle;
   }
 
