@@ -3,7 +3,7 @@ import DarkModeIcon from '@mui/icons-material/DarkMode';
 import { useState } from 'react';
 
 export default function SwitchThemeButton() {
-  const [toggle, setToggle] = useState(false);
+  const [toggle, setToggle] = useState(true);
 
   function checked() {
     if (toggle) {
